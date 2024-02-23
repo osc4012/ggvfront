@@ -172,7 +172,7 @@ export default {
           let cash = 0;
           if (res.data.expenditureList.length === 1) {
 
-            if (res.data.expenditureList[0].mn_pay_dvs === 1)
+            if (res.data.expenditureList[0].mn_pay_dvs == 1)
               card = res.data.expenditureList[0].sum_amount;
             else
               cash = res.data.expenditureList[0].sum_amount;
