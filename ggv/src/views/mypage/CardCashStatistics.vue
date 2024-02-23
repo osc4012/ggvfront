@@ -151,6 +151,7 @@ export default {
         } else {
           alert('날자범위가 180일을 초과했습니다');
         }
+        return;
       }
 
       // console.log(this.startDate + "," + this.endDate);
